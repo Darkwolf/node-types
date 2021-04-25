@@ -4,7 +4,7 @@
 ## Usage
 ```javascript
 // ECMAScript
-import { isObject }, types from '@darkwolf/types'
+import types, { isObject } from '@darkwolf/types'
 // CommonJS
 const types = require('@darkwolf/types')
 const {
@@ -12,7 +12,7 @@ const {
 } = types
 
 isObject(Object) // => false
-isObject(new Object) // => true
+isObject(new Object()) // => true
 ```
 ## [API Documentation](https://github.com/Darkwolf/node-types/blob/master/docs/API.md)
 ## Contact Me
