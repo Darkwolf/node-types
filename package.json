@@ -1,0 +1,33 @@
+{
+  "name": "@darkwolf/types",
+  "version": "1.0.0",
+  "description": "Types",
+  "type": "module",
+  "main": "./lib/index.cjs",
+  "exports": {
+    "import": "./lib/index.mjs",
+    "require": "./lib/index.cjs"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darkwolf/node-types.git"
+  },
+  "keywords": [
+    "types"
+  ],
+  "author": "Pavel Wolf",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darkwolf/node-types/issues"
+  },
+  "homepage": "https://github.com/Darkwolf/node-types#readme",
+  "dependencies": {
+    "@darkwolf/primordials": "^1.0.5"
+  }
+}
