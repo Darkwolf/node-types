@@ -358,6 +358,11 @@ Returns `true` if the value is a `MapIterator` object, e.g. `new Map().entries()
 * Returns: <[boolean][boolean]>
 
 Returns `true` if the value is a `SetIterator` object, e.g. `new Set().keys()`.
+#### types.isRegExpStringIterator(value)
+* `value` <[any][any]>
+* Returns: <[boolean][boolean]>
+
+Returns `true` if the value is a `RegExpStringIterator` object, e.g. `new String().matchAll(/(?:)/g)`.
 #### types.isGenerator(value)
 * `value` <[any][any]>
 * Returns: <[boolean][boolean]>

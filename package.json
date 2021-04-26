@@ -1,6 +1,6 @@
 {
   "name": "@darkwolf/types",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Types",
   "type": "module",
   "main": "./lib/index.cjs",
@@ -28,6 +28,6 @@
   },
   "homepage": "https://github.com/Darkwolf/node-types#readme",
   "dependencies": {
-    "@darkwolf/primordials": "^1.0.5"
+    "@darkwolf/primordials": "^1.0.7"
   }
 }
